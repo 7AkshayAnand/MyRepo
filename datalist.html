@@ -7,7 +7,15 @@
 </head>
 <body>
       <form>
-        Search<input type="text">
+        Search    <input type="text" list="search"><br>
+        <!-- datalist is predefined hint for a input tag-->
+        <datalist id="search">
+          <option value="Apple">
+          <option value="Mango">
+          <option value="Car">
+          <option value="Book">      
+        </datalist>  
+        <input type="submit"value="search">
       </form>  
 </body>
 </html>
