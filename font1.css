@@ -1,0 +1,23 @@
+
+@font-face {
+    font-family: abc;
+    src: url('Fontfolder/GreatVibes-Regular.ttf');
+}
+#h{
+   /* font-weight: normal;
+  
+font-family: 'Roboto', sans-serif; */
+}
+
+#p{
+  /* font-size: 50px;
+  font-weight: bold;
+  font-style: italic; */
+  /* font-family: 'Poppins', sans-serif;
+  font-variant: small-caps;
+  font-size: 30px; */
+  font-family: abc;
+
+  font:italic small-caps bold 20px abc;
+
+}

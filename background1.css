@@ -1,0 +1,11 @@
+#bg{
+    background-color: yellow;
+   background-image: url('transparentFoto2.jpg'),url('transparentFoto.jpg');
+   background-repeat: no-repeat;
+   background-position: left top ,right bottom;
+   
+   background-attachment: scroll;
+}
+/* body{
+    background-color: red;
+} */

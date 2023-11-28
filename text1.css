@@ -1,0 +1,28 @@
+#t1{
+  
+    border: 2px solid black;
+    /* color: blue;
+    text-align: justify; */
+
+    /* direction: ltr;
+   text-decoration: underline;
+   text-transform: capitalize;
+   line-height: 20px;
+   text-indent: 5px;
+   word-spacing: 15px;
+   letter-spacing: 5px; */
+
+
+ 
+}
+
+#d1{
+    margin: 25px;
+    font-size: 30px;
+    text-shadow: 5px 10px 5px red;
+}
+
+/* img{
+    border: 2px solid blue;
+    vertical-align: middle;
+} */

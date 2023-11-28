@@ -1,0 +1,48 @@
+/* In css colors can be specified using 
+=>prdefined color names : modern browser supports 140 named colors
+=>RGB
+=>RGBA
+=>HEX
+=>HSL
+=>HSLA */
+
+/* RGB 
+ example: rgb(reg,green,blue)
+ color value ranges between 0 to 255
+
+  ex : 
+     black: rgb(0,0,0)
+     white :rgb(255,255,255)
+     red :  rgb(255,0,0)
+     green : rgb(0,255,0) 
+     blue : rgb(0,0,255)*/
+
+ /* RGBA 
+ rgba(red,green,blue,alpha)
+ alpha parameter is a number between 0.0(fully transparent) to 
+ 1.0(not transparent at all)
+ ex: 
+    rgba(255,99,71,0.5)     */
+
+/* HEX 
+#rrggbb
+*rr(red),gg(green) and bb(blue)
+*hexadecimal values between 00 and ff(same as decimal 0 to 255)
+*Redd :#ff0000
+*black:#000000
+*white :#ffffff     */
+
+/* HSL 
+*hue, saturation and lightness
+*hue is a degree on the color wheel from 0 to 360.
+ 0 is red ,120 is green and 240 is blue 
+*saturation is percentage value 0% means shade of gray and 
+  100 % means the full  color 
+*Lightness is also a percentage, 0% is black , 50% is neither 
+ light or dark and 100% is white   
+example: 
+       RED: hsl(0,100%,50%)  */
+
+ /* HSLA 
+ hsla(hue,saturation,lightness,alpha)
+ * alpha is the transparent parameter       */
