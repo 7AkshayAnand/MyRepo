@@ -1,0 +1,14 @@
+
+#overflow{
+    background-color: red;
+    border: 1px solid red;
+    height: 500px;
+    /* overflow-x:hidden ;
+    overflow-y: scroll; */
+    overflow: auto;
+    resize: both;
+}
+
+textarea{
+    resize: none;
+}

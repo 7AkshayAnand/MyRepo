@@ -1,0 +1,22 @@
+
+/* way of declaring and using vairable in css */
+:root{
+ --primaryColor:teal;
+ --btncolor: blueviolet;
+ --textcolor: white;
+}
+#fun{
+    background-color: teal;
+    
+    height: 200px;
+    width: calc(100%-100px)
+    
+}
+a{
+    padding: 10px 30px;
+    margin: 30px;
+    background-color: var(--btncolor);
+    color: var(--textcolor);
+    text-decoration: none;
+
+}

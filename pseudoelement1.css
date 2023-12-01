@@ -1,0 +1,13 @@
+/* p::first-letter{
+    font-size: 22px;
+    color: red;
+} */
+
+p::first-line{
+    font-size: 22px;
+    color: red;
+}
+
+h1::before{
+    content: url('foto.png');
+}

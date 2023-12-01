@@ -1,0 +1,34 @@
+/* There are two type of units in CSS
+a)Absolute: It does not depend on other for providing mesaures
+  example: cm,mm,inch,px,pt,pc 
+
+b)Relative Css:It depends on other element for providing measures.
+  example: em,rem,vh,vw,%
+     
+     ->em:em is relative to the size of its direct parent
+
+     ->rem:rem is only relative to root(html tag) size
+
+     ->vh:1% of view port height
+
+     ->vw:1% of view port width 
+     where view port is the entire whilte screen of browser
+     ->%:relative to parent */
+   html{
+    font-size: 14px;
+   }
+     #parent{
+        /* border:2px solid red;
+        height:50vh;
+        width:50vh; */
+
+        font-size: 30px;
+
+     }
+
+     #child{
+        /* border:2px solid blue;
+        width:50%; */
+         font-size: 2rem;
+  
+     }

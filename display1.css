@@ -1,0 +1,23 @@
+/* block :it takes entire width
+          Always takes a new line
+           we  apply height and width
+ example:  div p h1 form
+inline: 
+it takes only required width
+ not starts from a new line
+ we cannnot apply height and width
+example: a img span
+
+inline-block: same as inline but can take height and width
+none */
+
+.display{
+ border: 1px solid red;
+ height: 100px;
+ width: 400px;
+ display: inline-block;
+}
+#div1{
+    display: none;
+    /* visibility: hidden; */
+}

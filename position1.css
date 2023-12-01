@@ -1,0 +1,74 @@
+/* 4 type of position
+a)static: default value normal flow 
+
+
+b)relative: element moves  with respect of current 
+position and it wont let other element to takes its 
+initial place or position
+ 
+c)Absolute: It starts its calculation for moving from 
+its positioned parent that if any element is having any
+ position property except static is called positioned 
+ element, if there is no positioned parent is present then 
+ it simply moves according to the body tag, also it leaves its
+ place.
+
+
+d)fixed: fixed is according to the viewport, and it will not
+        move.
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+/* //below four property applied only when position is relative or fixed or absolute
+
+1)top 
+2)bottom 
+3)left 
+4)right */
+
+
+body{
+    height: 1000px;
+}
+#parent{
+  border: 1px solid red;
+  padding: 20px;
+  width: 50%;
+  margin: 100px;
+  position: relative;
+ 
+ 
+}
+#one{
+   width: 100px;
+   height: 100px;
+   background-color: green;
+   display: inline-block;
+}
+#two{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+    /* position: relative; */
+    /* position: absolute; */
+     position: fixed;
+    top: 0px;
+    left: 0px;
+}
+#three{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+}
